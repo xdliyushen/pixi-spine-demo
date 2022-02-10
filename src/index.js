@@ -114,9 +114,9 @@ app.loader
             const id = e.target.id;
             const value = this.value;
 
-            if(id === 'skin-select') {
+            if (id === 'skin-select') {
                 setSkinByName(value);
-            } else if(id === 'animation-select') {
+            } else if (id === 'animation-select') {
                 setAnimation(value);
             }
         }
